@@ -1,4 +1,6 @@
-﻿A referência linear é um meio de representar recursos que podem ser descritos referenciando um conjunto básico de recursos lineares.
+# 23. Referenciamento Linear
+
+A referência linear é um meio de representar recursos que podem ser descritos referenciando um conjunto básico de recursos lineares.
 
 Exemplos comuns de recursos que são modelados usando referência linear são:
 
