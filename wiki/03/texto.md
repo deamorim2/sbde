@@ -16,11 +16,13 @@ Vá até o site https://www.postgresql.org/download/ , baixe e instale a versão
 
 ![https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_03.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_03.png)
 
+***
 **Dica de brother:**
 
-**1 - Se possível, instale os arquivos de programa no drive `C:\` e os dados do banco no drive `D:\`.**
+1 - Se possível, instale os arquivos de programa no drive `C:\` e os dados do banco no drive `D:\`.
 
-**2 - Utilize para o drive onde estarão os dados _hard drive_ do tipo SSD.**
+2 - Utilize para o drive onde estarão os dados _hard drive_ do tipo SSD.
+***
 
 >Defina a senha do usuário `postgres` como _postgres_ e clique no botão _Next >_
 [https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png)
