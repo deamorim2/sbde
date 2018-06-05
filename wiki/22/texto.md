@@ -1,6 +1,6 @@
 # 22. Igualdade Geométrica
 
-# 22.1. Igualdade Geométrica
+# 22.1. O que é Igualdade Geométrica
 
 Determinar a igualdade geométrica ao lidar com geometrias pode ser complicado
 
