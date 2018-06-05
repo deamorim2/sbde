@@ -1,4 +1,6 @@
-﻿Em um banco de dados podemos ter duas ou mais tabelas relacionadas.
+# 8. Junção de Tabelas em SQL(Join)
+
+Em um banco de dados podemos ter duas ou mais tabelas relacionadas.
 
 É comum ao elaborarmos uma consulta termos a necessidade de trazer dados de diferentes tabelas.
 
