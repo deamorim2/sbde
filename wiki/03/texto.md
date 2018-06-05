@@ -23,8 +23,7 @@ Vá até o site https://www.postgresql.org/download/ , baixe e instale a versão
 **2 - Utilize para o drive onde estarão os dados _hard drive_ do tipo SSD.**
 
 >Defina a senha do usuário `postgres` como _postgres_ e clique no botão _Next >_
-
-![https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png)
+[https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png)
 
 >Defina a porta padrão _5432_ e clique no botão _Next >_
 
@@ -42,8 +41,10 @@ Vá até o site https://www.postgresql.org/download/ , baixe e instale a versão
 
 ![https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_08.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_08.png)
 
+***
 **Nota:**
-**Se você deseja instalar a versão mais atual do PostGIS, deixe marcado a opção de executar o _stack builder_ e prossiga com a instalação marcando a opção da extensão espacial. No nosso caso, nós iremos instalar uma versão específica do PostGIS, por isso desmarcamos essa opção.**
+Se você deseja instalar a versão mais atual do PostGIS, deixe marcado a opção de executar o _stack builder_ e prossiga com a instalação marcando a opção da extensão espacial. No nosso caso, nós iremos instalar uma versão específica do PostGIS, por isso desmarcamos essa opção.
+***
 
 # 3.2 PostGIS
 
