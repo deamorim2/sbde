@@ -1,4 +1,6 @@
-﻿# 3.1 PostgreSQL
+# Instalação dos Softwares
+
+# 3.1 PostgreSQL
 
 Vá até o site https://www.postgresql.org/download/ , baixe e instale a versão do PostgreSQL 9.5 para o seu sistema operacional.
 
