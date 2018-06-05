@@ -1,4 +1,6 @@
-﻿É muito comum ter dados em que as coordenadas são do tipo "geográficas" ou "latitude/longitude".
+# 18. Dados Espaciais Geográficos
+
+É muito comum ter dados em que as coordenadas são do tipo "geográficas" ou "latitude/longitude".
 
 Ao contrário das coordenadas em Mercator, UTM ou Stateplane, as coordenadas geográficas não são coordenadas cartesianas.
 
