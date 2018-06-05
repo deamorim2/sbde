@@ -1,4 +1,6 @@
-﻿Aqui está um lembrete das funções que vimos na última seção. Eles devem ser úteis para os exercícios!
+# 12. Exercícios de Relacionamentos Espaciais
+
+Aqui está um lembrete das funções que vimos na última seção. Eles devem ser úteis para os exercícios!
 
 * sum(expression) - função de agregação para retornar uma soma para um conjunto de registros
 * count(expression) - função de agregação para retornar o tamanho de um conjunto de registros
