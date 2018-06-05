@@ -1,4 +1,6 @@
-﻿Todas as funções que temos visto até agora apresentam informações de como geometrias são e normalmente retornam:
+# 19. Funções de Construção de Geometria
+
+Todas as funções que temos visto até agora apresentam informações de como geometrias são e normalmente retornam:
 
 * análises dos objetos (ST_Length (geometry), ST_Area (geometry));
 * serializações dos objetos (ST_AsText (geometry), ST_AsGML (geometry));
