@@ -1,4 +1,6 @@
-﻿Em 90% dos casos, a resposta à pergunta "por que minha consulta está causando um erro de 'TopologyException'" é "uma ou mais entradas inválidas". O que levanta a questão: o que significa ser inválido e por que devemos nos importar?
+# 21. Validade Geométrica
+
+Em 90% dos casos, a resposta à pergunta "por que minha consulta está causando um erro de 'TopologyException'" é "uma ou mais entradas inválidas". O que levanta a questão: o que significa ser inválido e por que devemos nos importar?
 
 # 21.1 O que é validade geométrica?
 
