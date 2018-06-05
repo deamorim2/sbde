@@ -8,50 +8,69 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 
 ## Parte I - Introdução ao PostGIS
 
-2. [Sistema de Banco de Dados Espaciais](https://github.com/deamorim2/sbde/wiki/02.-Sistema-de-Banco-de-Dados-Espaciais)
+2. [Sistema de Banco de Dados Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/02/texto.md)
 
-3. [Instalação dos Softwares](https://github.com/deamorim2/sbde/wiki/03.-Instalação-dos-Softwares)
+3. [Instalação dos Softwares](https://github.com/deamorim2/sbde/blob/master/wiki/03/texto.md)
 
-4. [Criação do Banco de Dados Espaciais](https://github.com/deamorim2/sbde/wiki/04.-Criação-do-Banco-de-Dados-Espaciais)
+4. [Criação do Banco de Dados Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/04/texto.md)
 
-5. [Carregando Dados Espaciais e Não Espaciais](https://github.com/deamorim2/sbde/wiki/05.-Carregando-Dados-Espaciais-e-Não-Espaciais)
+5. [Carregando Dados Espaciais e Não Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/05/texto.md)
 
-6. [Sobre os Dados Espaciais](https://github.com/deamorim2/sbde/wiki/06.-Sobre-os-Dados-Espaciais)
+6. [Sobre os Dados Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/06/texto.md)
 
-7. [Consulta Simples SQL](https://github.com/deamorim2/sbde/wiki/07.-Consulta-Simples-SQL)
+7. [Consulta Simples SQL](https://github.com/deamorim2/sbde/blob/master/wiki/07/texto.md)
 
-8. [Junção de Tabelas em SQL(Join)](https://github.com/deamorim2/sbde/wiki/08.-Junção-de-Tabelas-em-SQL(Join))
+8. [Junção de Tabelas em SQL(Join)](https://github.com/deamorim2/sbde/blob/master/wiki/08/texto.md)
 
-9. [Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/wiki/09.-Dados-Espaciais-Geom%C3%A9tricos)
+9. [Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/blob/master/wiki/09/texto.md)
 
-10. [Exercícios de Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/wiki/10.-Exerc%C3%ADcios-de-Dados-Espaciais-Geom%C3%A9tricos) 
+10. [Exercícios de Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/blob/master/wiki/10/texto.md) 
 
-11. [Relacionamentos Espaciais](https://github.com/deamorim2/sbde/wiki/11.-Relacionamentos-Espaciais)
+11. [Relacionamentos Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/11/texto.md)
 
-12. [Exercícios de Relacionamentos Espaciais](https://github.com/deamorim2/sbde/wiki/12.-Exercícios-de-Relacionamentos-Espaciais)
+12. [Exercícios de Relacionamentos Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/12/texto.md)
 
-13. [Junções Espaciais](https://github.com/deamorim2/sbde/wiki/13.-Jun%C3%A7%C3%B5es-Espaciais)
+13. [Junções Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/13/texto.md)
 
-14. [Exercícios de Junções Espaciais](https://github.com/deamorim2/sbde/wiki/14.-Exerc%C3%ADcios-de-Jun%C3%A7%C3%B5es-Espaciais)
+14. [Exercícios de Junções Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/14/texto.md)
 
-15. [Indexação Espacial](https://github.com/deamorim2/sbde/wiki/15.-Indexa%C3%A7%C3%A3o-Espacial)
+15. [Indexação Espacial](https://github.com/deamorim2/sbde/blob/master/wiki/15/texto.md)
 
-16. [Projeção de Dados Espaciais](https://github.com/deamorim2/sbde/wiki/16.-Proje%C3%A7%C3%A3o-de-Dados-Espaciais)
+16. [Projeção de Dados Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/16/texto.md)
 
-17. [Exercícios de Projeção de Dados Espaciais](https://github.com/deamorim2/sbde/wiki/17.-Exerc%C3%ADcios-de-Proje%C3%A7%C3%A3o-de-Dados-Espaciais)
+17. [Exercícios de Projeção de Dados Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/17/texto.md)
 
-18. [Dados Espaciais Geográficos](https://github.com/deamorim2/sbde/wiki/18.-Dados-Espaciais-Geogr%C3%A1ficos)
+18. [Dados Espaciais Geográficos](https://github.com/deamorim2/sbde/blob/master/wiki/18/texto.md)
 
-19. [Funções de Construção de Geometria](https://github.com/deamorim2/sbde/wiki/19.-Fun%C3%A7%C3%B5es-de-Constru%C3%A7%C3%A3o-de-Geometria)
+19. [Funções de Construção de Geometria](https://github.com/deamorim2/sbde/blob/master/wiki/19/texto.md)
 
-21. [Validade Geométrica](https://github.com/deamorim2/sbde/wiki/21.-Validade-Geom%C3%A9trica)
+20. Mais Junções Espaciais
 
-22. [Igualdade Geométrica](https://github.com/deamorim2/sbde/wiki/22.-Igualdade-Geom%C3%A9trica)
+21. [Validade Geométrica](https://github.com/deamorim2/sbde/blob/master/wiki/21/texto.md)
 
-23. [Referenciamento Linear](https://github.com/deamorim2/sbde/wiki/23.-Referenciamento-Linear)
+22. [Igualdade Geométrica](https://github.com/deamorim2/sbde/blob/master/wiki/22/texto.md)
 
-24. [DE9IM: Modelo de Nove-Intersecções Dimensionalmente Estendido](https://github.com/deamorim2/sbde/wiki/24.-DE9IM:-Modelo-de-Nove-Intersec%C3%A7%C3%B5es-Dimensionalmente-Estendido)
+23. [Referenciamento Linear](https://github.com/deamorim2/sbde/blob/master/wiki/23/texto.md)
 
-25. [Clustering em Índices](https://github.com/deamorim2/sbde/wiki/25.-Clustering-em-%C3%8Dndices)
+24. [DE9IM: Modelo de Nove-Intersecções Dimensionalmente Estendido](https://github.com/deamorim2/sbde/blob/master/wiki/24/texto.md)
 
-30. [Tuning PostgreSQL para Dados Espaciais](https://github.com/deamorim2/sbde/wiki/30.-Tuning-PostgreSQL-para-Dados-Espaciais)
+25. [Clustering em Índices](https://github.com/deamorim2/sbde/blob/master/wiki/25/texto.md)
+
+26. 3-D
+
+27. Procura Pelo vizinho Mais Próximo
+
+28. Rastreamento de Histórico de Edição utilizando Triggers
+
+29. Funções Avançadas de Construção de Geometrias
+
+30. [Tuning PostgreSQL para Dados Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/30/texto.md)
+
+31. Segurança em PostgreSQL
+
+32. Esquemas em PostgreSQL
+
+33. Backup e Restore em PostgreSQL
+
+34. Atualização de Softwares
+
