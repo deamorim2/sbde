@@ -1,4 +1,6 @@
-﻿Até agora, usamos apenas funções espaciais que medem geometrias (ST_Area, ST_Length), serializar (ST_GeomFromText) ou desserializar (ST_AsText). O que essas funções têm em comum é que elas só funcionam em uma geometria por vez.
+# 11. Relacionamentos Espaciais
+
+Até agora, usamos apenas funções espaciais que medem geometrias (ST_Area, ST_Length), serializar (ST_GeomFromText) ou desserializar (ST_AsText). O que essas funções têm em comum é que elas só funcionam em uma geometria por vez.
 
 Os bancos de dados espaciais são poderosos porque eles não apenas armazenam geometria, mas também têm a capacidade de comparar os relacionamentos entre as geometrias.
 
