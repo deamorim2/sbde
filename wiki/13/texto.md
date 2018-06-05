@@ -1,4 +1,6 @@
-﻿Junções espaciais são o carro chefe de sistema de bancos de dados espaciais.
+# 13. Junções Espaciais
+
+Junções espaciais são o carro chefe de sistema de bancos de dados espaciais.
 
 Elas permitem combinar informações de diferentes tabelas usando relacionamentos espaciais como a chave de junção. Muito do que pensamos como “análise padrão de GIS” pode ser expresso como junções espaciais.
 
