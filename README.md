@@ -4,7 +4,7 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 
 # SUMÁRIO
 
-1. [Comece Aqui](https://github.com/deamorim2/sbde/wiki/01.-Comece-Aqui)
+1. [Comece Aqui](https://github.com/deamorim2/sbde/blob/master/wiki/01/texto.md)
 
 ## Parte I - Introdução ao PostGIS
 
