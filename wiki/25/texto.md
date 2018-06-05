@@ -1,4 +1,6 @@
-﻿Os bancos de dados só podem recuperar informações tão rapidamente quanto podem retirá-las do disco.
+# 25. Clustering em Índices
+
+Os bancos de dados só podem recuperar informações tão rapidamente quanto podem retirá-las do disco.
 
 Bancos de dados pequenos irão flutuar totalmente para o cache de RAM e ficar longe das limitações do disco físico, mas para grandes bancos de dados, o acesso ao disco físico será uma limitação na velocidade de acesso ao disco.
 
