@@ -54,22 +54,6 @@ Embora tenha apenas um comando, a DQL é a parte da SQL mais utilizada.
 
 O comando SELECT permite ao usuário especificar uma consulta ("query") como uma descrição do resultado desejado. Esse comando é composto de várias cláusulas e opções, possibilitando elaborar consultas das mais simples às mais elaboradas.
 
-# 7.2 Consultas de Seleção de Dados (SELECT)
-
-Você já viu o SQL quando criamos nosso primeiro banco de dados. Lembre-se do que já fizemos anteriormente:
-
-    SELECT postgis_full_version();
-
-Mas essa era uma pergunta sobre o banco de dados. Agora que carregamos dados em nosso banco de dados, vamos usar o SQL para fazer perguntas sobre os dados!
-
-Por exemplo:
-
->"Quais são os nomes de todos os municípios do Brasil?"
-
->Abra a janela de consulta SQL no pgAdmin clicando no botão SQL
-
-![https://github.com/deamorim2/sbde/blob/master/wiki/04/pgadmin_05.png](https://github.com/deamorim2/sbde/blob/master/wiki/04/pgadmin_05.png)
- 
 >Em seguida, insira a seguinte consulta na janela de consulta
 
     SELECT nome
@@ -150,6 +134,22 @@ A linguagem SQL pode ser dividida em:
 * `MAX` – Utilizada para devolver o valor mais alto de um campo especificado.
 * `MIN` – Utilizada para devolver o valor mais baixo de um campo especificado.
 
+# 7.2 Consultas de Seleção de Dados (SELECT)
+
+Você já viu o SQL quando criamos nosso primeiro banco de dados. Lembre-se do que já fizemos anteriormente:
+
+    SELECT postgis_full_version();
+
+Mas essa era uma pergunta sobre o banco de dados. Agora que carregamos dados em nosso banco de dados, vamos usar o SQL para fazer perguntas sobre os dados!
+
+Por exemplo:
+
+>"Quais são os nomes de todos os municípios do Brasil?"
+
+>Abra a janela de consulta SQL no pgAdmin clicando no botão SQL
+
+![https://github.com/deamorim2/sbde/blob/master/wiki/04/pgadmin_05.png](https://github.com/deamorim2/sbde/blob/master/wiki/04/pgadmin_05.png)
+ 
 ## 7.2.1 Geocódigos do IBGE para limites políticos
 
 Atributo `geocodigo` da tabela `lim_unidade_federacao_a` - Código da Unidade da Federação. Indica o código numérico da Unidade da Federação. Possui 2 dígitos da seguinte forma: UF, onde: UF – Unidade da Federação, MMMMM – Município.
