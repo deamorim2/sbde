@@ -1,4 +1,6 @@
-﻿As principais propostas apresentadas até hoje sobre a representação de relações topológicas entre objetos geométricos em um espaço bidimensional incluem:
+# 24. DE9IM: Modelo de Nove-Intersecções Dimensionalmente Estendido
+
+As principais propostas apresentadas até hoje sobre a representação de relações topológicas entre objetos geométricos em um espaço bidimensional incluem:
 
 * Método das Quatro Intersecções(4IM) (Egenhofer & Franzosa, 1990)
 * Método das Nove Intersecções(9IM) (Egenhofer & Herring 1991; Pullar & Egenhofer, 1988)
