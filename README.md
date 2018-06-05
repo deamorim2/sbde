@@ -23,7 +23,8 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 8. [Junção de Tabelas em SQL(Join)](https://github.com/deamorim2/sbde/blob/master/wiki/08/texto.md)
 
 9. [Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/blob/master/wiki/09/texto.md)
- 10. [Exercícios de Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/blob/master/wiki/10/texto.md) 
+
+10. [Exercícios de Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/blob/master/wiki/10/texto.md) 
 
 11. [Relacionamentos Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/11/texto.md)
 
@@ -80,3 +81,7 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 2. Criação de Esquema Lógico
 
 3. Implementação Física
+
+# Licença
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta obra está licenciada como uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional</a>.
+
