@@ -1,4 +1,6 @@
-﻿Com suporte a uma ampla variedade de bibliotecas e aplicativos, o PostGIS oferece muitas opções para carregar dados.
+# 5. Carregando Dados Espaciais e Não Espaciais
+
+Com suporte a uma ampla variedade de bibliotecas e aplicativos, o PostGIS oferece muitas opções para carregar dados.
 
 # 5.1 Carregando Dados Espaciais
 
