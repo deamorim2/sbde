@@ -1,4 +1,6 @@
-﻿# 7.1 SQL
+# 7. Consulta Simples SQL
+
+# 7.1 SQL
 
 SQL, ou "Structured Query Language", é um meio de fazer perguntas e atualizar dados em bancos de dados relacionais.
 
