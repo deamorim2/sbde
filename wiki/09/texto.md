@@ -1,4 +1,6 @@
-﻿# 9.1. Introdução
+# 9. Dados Espaciais Geométricos
+
+# 9.1. Introdução
 
 Na seção anterior, nós carregamos uma variedade de dados. Antes de começarmos a brincar com nossos dados, vamos dar uma olhada em alguns exemplos mais simples.
 
