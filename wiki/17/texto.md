@@ -1,4 +1,6 @@
-﻿Aqui está um lembrete de algumas das funções que vimos.
+# 17. Exercícios de Projeção de Dados Espaciais
+
+Aqui está um lembrete de algumas das funções que vimos.
 
 Dica: eles devem ser úteis para os exercícios!
 
@@ -12,7 +14,7 @@ Dica: eles devem ser úteis para os exercícios!
 
 Vamos retomar alguns exercícios realizados nas sessões anteriores que utilizam distâncias de forma aproximada.
 
->"Qual é a área do município de 'Patos de Minas', tabela `lim_municipio_a`, determinada pelo IBGE? Coloque as medidas em km2"
+>"Qual é a área do município de 'Patos de Minas', tabela `lim_municipio_a`, determinada pelo IBGE? Coloque as medidas em km2"
 
     SELECT ST_Area(geom)*12321 as area_geo, ST_Area(ST_Transform(geom, 55555))/1000000 as area_albers, ST_Area(ST_Transform(geom, 5880))/1000000 as area_policonica 
     FROM lim_municipio_a
