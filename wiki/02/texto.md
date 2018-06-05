@@ -1,4 +1,4 @@
-# 2.1 Sistema de Banco de Dados Espaciais
+﻿# 2.1 Sistema de Banco de Dados Espaciais
 
 Um exemplo de Sistema de Banco de Dados Espaciais é o Sistema Gerenciador de Banco de Dados Objeto-Relacional distribuído [PostgreSQL](http://www.postgresql.org/) e a extensão espacial [PostGIS](https://postgis.net/).
 
@@ -113,9 +113,9 @@ O shapefile (e outros formatos de arquivo) tem sido a maneira padrão de armazen
 
 * **Os arquivos requerem software especial para ler e escrever**: O SQL é uma abstração para acesso e análise de dados aleatórios. Sem essa abstração, você precisará escrever todo o código de acesso e análise você mesmo.
 
- * **Usuários simultâneos podem causar corrupção**: Embora seja possível escrever código extra para garantir que múltiplas escritas no mesmo arquivo não corrompam os dados, você ainda terá que resolver o problema de desempenho e terá que escrever o melhor código de um sistema de banco de dados. Por que não usar apenas um banco de dados padrão?
+* **Usuários simultâneos podem causar corrupção**: Embora seja possível escrever código extra para garantir que múltiplas escritas no mesmo arquivo não corrompam os dados, você ainda terá que resolver o problema de desempenho e terá que escrever o melhor código de um sistema de banco de dados. Por que não usar apenas um banco de dados padrão?
 
-* **Perguntas complicadas requerem um software complicado para responder**: Perguntas complexas, como associações ou agregações espaciais, que são realizadas ??em uma linha de SQL no sistema de banco de dados espaciais, terá que conter centenas de linhas de código de programação para responder a mesma coisa utilizando arquivos de sistema.
+* **Perguntas complicadas requerem um software complicado para responder**: Perguntas complexas, como associações ou agregações espaciais, que são realizadas ​​em uma linha de SQL no sistema de banco de dados espaciais, terá que conter centenas de linhas de código de programação para responder a mesma coisa utilizando arquivos de sistema.
 
 A maioria dos usuários do PostGIS configuram sistemas em que vários aplicativos acessam os mesmos dados, de modo que ter um método de acesso SQL padrão simplifica a implantação e o desenvolvimento da solução. Alguns usuários trabalham com grandes conjuntos de dados. Com arquivos de sistema, muitas vezes esses dados tem que ser segmentados em vários arquivos, mas em um sistema de banco de dados esses dados podem ser armazenados em uma única tabela.
 
@@ -126,8 +126,7 @@ Em resumo, o acesso simultâneo aos dados por vários usuários, consultas ad ho
 GeoPackage (GPKG) é um formato de dados espaciais aberto, não proprietário, independente de plataforma e é baseado em padrões para sistema de informações geográficas implementado como um contêiner de banco de dados SQLite. Definido pela Open Geospatial Consortium (OGC) com o apoio dos militares dos EUA e publicado em 2014, o GeoPackage recebeu amplo apoio  de várias organizações governamentais, comerciais e de código aberto.
 
 Um GeoPackage é construído como um arquivo de banco de dados SQLite 3 estendido (*.gpkg) que contém tabelas de dados e metadados com definições especificadas, restrições de integridade, limitações de formato e restrições de conteúdo. O padrão GeoPackage descreve um conjunto de convenções (requisitos) para armazenar dados nos formatos vetoriais e matriciais em várias escalas, esquemas e metadados. Um GeoPackage pode ser estendido usando as regras de extensão conforme definido na cláusula 2.3 do padrão. O padrão OGC GeoPackage especifica um conjunto de extensões aprovadas pelos membros OGC no Anexo F.
- 
- 
+
 O GeoPackage foi projetado para ser o mais leve possível, compartilhado em um único arquivo e pronto para ser usado. Isso o torna adequado para aplicações mobile em modo offline e para compartilhamento rápido por meio de armazenamento em nuvem, unidades USB e etc. O formato Geopackagepossui índices espaciais RTree em SQLite que melhoram a performance em consultas espaciais se comparados aos formatos tradicionais de arquivos geoespaciais.
 
 Se comparado com o shapefile, o geopackage suporta tipos de dados não espaciais como inteiro, real, texto, blob, data, valores nulos, bem como não possui limitação no comprimento do nome da coluna das tabelas, que no shapefile possui limitação de 10 caracteres. Mas, uma das principais diferenças entre o Shapefile e o Geopackage é que o shapefile possui limite em sua capacidade de armazenamento de 2 GB, enquanto o limite do Geopakcage é bem superior: 140 mil GB.
@@ -140,7 +139,7 @@ Em maio de 2001, a [Refractions Research](http://www.refractions.net/) lançou a
 
 Com o suporte do PostGIS para análise simples e junções espaciais, o Mapserver tornou-se o primeiro aplicativo externo a fornecer visualização de dados a partir do sistema de banco de dados espaciais.
 
-Nos anos seguintes, o número de funções do PostGIS cresceu bastante, mas seu poder de processamento permaneceu limitado. Muitas das funções mais interessantes como ST_Intersects (), ST_Buffer () ou ST_Union () foram muito difíceis de serem codificar. Partindo-se do zero, escrever esses códigos levariam anos para ficarem prontos. Felizmente, surgiu um segundo projeto, o Geometry Engine, Open Source ou [GEOS](http://trac.osgeo.org/geos). A biblioteca GEOS fornece os algoritmos necessários para implementar as especificações da SFSQL. Ao associar-se ao GEOS, o PostGIS forneceu suporte completo para o SFSQL a partir da versão 0.8.
+Nos anos seguintes, o número de funções do PostGIS cresceu bastante, mas seu poder de processamento permaneceu limitado. Muitas das funções mais interessantes como ST_Intersects (), ST_Buffer () ou ST_Union () foram muito difíceis de serem codificar. Partindo-se do zero, escrever esses códigos levariam anos para ficarem prontos. Felizmente, surgiu um segundo projeto, o "Geometry Engine, Open Source" ou [GEOS](http://trac.osgeo.org/geos). A biblioteca GEOS fornece os algoritmos necessários para implementar as especificações da SFSQL. Ao associar-se ao GEOS, o PostGIS forneceu suporte completo para o SFSQL a partir da versão 0.8.
 
 Surgiu um outro problema com o aumento da capacidade de dados do PostGIS: a representação usada para armazenar a geometria se mostrou relativamente ineficiente. Para objetos pequenos, como pontos e pequenas linhas, os metadados na representação das feições geométricas compreendiam até 300% desses dados. Por razões de desempenho, foi necessário enxugar a representação. Os custos de leitura e processamento desses dados foram bastante reduzidos ao encolher o cabeçalho dos metadados e as dimensões necessárias.
 
