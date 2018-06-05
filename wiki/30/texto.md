@@ -1,4 +1,6 @@
-﻿O PostgreSQL é um sistema de banco de dados muito versátil, capaz de funcionar eficientemente em ambientes de recursos muito baixos e ambientes compartilhados com uma variedade de outros aplicativos.
+# 30. Tuning PostgreSQL para Dados Espaciais
+
+O PostgreSQL é um sistema de banco de dados muito versátil, capaz de funcionar eficientemente em ambientes de recursos muito baixos e ambientes compartilhados com uma variedade de outros aplicativos.
 
 Para garantir que ele seja executado adequadamente em muitos ambientes diferentes, a configuração padrão é muito conservadora e não é muito apropriada para um banco de dados de produção de alto desempenho.
 
