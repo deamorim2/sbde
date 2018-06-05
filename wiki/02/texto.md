@@ -131,7 +131,7 @@ O GeoPackage foi projetado para ser o mais leve possível, compartilhado em um �
 
 Se comparado com o shapefile, o geopackage suporta tipos de dados não espaciais como inteiro, real, texto, blob, data, valores nulos, bem como não possui limitação no comprimento do nome da coluna das tabelas, que no shapefile possui limitação de 10 caracteres. Mas, uma das principais diferenças entre o Shapefile e o Geopackage é que o shapefile possui limite em sua capacidade de armazenamento de 2 GB, enquanto o limite do Geopakcage é bem superior: 140 mil GB.
 
-## 2.4.3 Um breve histórico do PostGIS
+## 2.4.2 Um breve histórico do PostGIS
 
 Em maio de 2001, a [Refractions Research](http://www.refractions.net/) lançou a primeira versão do PostGIS. O PostGIS 0.1 teve objetos, índices e umas poucas funções. O resultado foi um banco de dados adequado para armazenamento e para recuperação de dados, mas não adequado para análise de dados.
 
@@ -147,11 +147,11 @@ No PostGIS 1.0, esta nova representação, mais rápida e leve, tornou-se o padr
 
 Com foco contínuo no desempenho, o PostGIS 1.4 melhorou significativamente a velocidade de processamneto das funções e consultas que utilizam geometrias.
 
-## 2.4.4 Quem usa PostGIS?
+## 2.4.3 Quem usa PostGIS?
 
 Para uma lista completa de estudos de caso, veja a página de [estudos de caso que utilizam PostGIS](http://postgis.net/casestudy).
 
-## 2.4.5 Quais aplicativos oferecem suporte ao PostGIS?
+## 2.4.4 Quais aplicativos oferecem suporte ao PostGIS?
 
 A PostGIS tornou-se um banco de dados espacial amplamente utilizado, e o número de programas de terceiros que oferecem suporte ao armazenamento e recuperação de dados usando essa extensão também aumentou. [programas que oferecem suporte ao PostGIS](http://trac.osgeo.org/postgis/wiki/UsersWikiToolsSupportPostgis) incluem softwares de código aberto e proprietário em sistemas servidor e desktop.
 
