@@ -1,4 +1,6 @@
-﻿A Terra não é plana, e não há uma maneira simples de colocá-la em um mapa plano (ou tela de computador), então as pessoas criaram todos os tipos de soluções engenhosas, cada uma com vantagens e desvantagens.
+# 16. Projeção de Dados Espaciais
+
+A Terra não é plana, e não há uma maneira simples de colocá-la em um mapa plano (ou tela de computador), então as pessoas criaram todos os tipos de soluções engenhosas, cada uma com vantagens e desvantagens.
 
 Algumas projeções preservam a área, portanto todos os objetos têm um tamanho relativo um ao outro. Outras projeções preservam ângulos (conformes) como a projeção de Mercator. Algumas projeções tentam encontrar uma boa mistura intermediária com pouca distorção em vários parâmetros.
 
