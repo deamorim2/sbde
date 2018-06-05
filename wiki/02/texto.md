@@ -1,4 +1,4 @@
-﻿# 2.1 Sistema de Banco de Dados Espaciais
+# 2. Sistema de Banco de Dados Espaciais
 
 Um exemplo de Sistema de Banco de Dados Espaciais é o Sistema Gerenciador de Banco de Dados Objeto-Relacional distribuído [PostgreSQL](http://www.postgresql.org/) e a extensão espacial [PostGIS](https://postgis.net/).
 
@@ -31,7 +31,7 @@ Os sistemas de banco de dados espaciais integram dados espaciais em um sistema d
 Nota:
 No Brasil, o termo Sistema de Banco de Dados Geográficos é bem mais difundido que o termo Sistema de Banco de Dados Espaciais. Porém, os Sistemas de Banco de Dados Espaciais podem ser utilizado em aplicações além do mundo geográfico. Os bancos de dados espaciais podem ser usados para gerenciar dados relacionados à anatomia do corpo humano, circuitos integrados de grande escala, estruturas moleculares, campos eletromagnéticos, entre outros.
 
-## 2.1.1 Tipos de dados espaciais
+## 2.1 Tipos de dados espaciais
 
 Um banco de dados convencionais possui dados básicos como dos tipos texto, número e data. Um banco de dados espacial adiciona tipos adicionais (espaciais) para representar recursos geográficos. Esses tipos de dados espaciais abstraem e encapsulam estruturas espaciais, como limites e dimensões. Em muitos aspectos, os tipos de dados espaciais podem ser entendidos simplesmente como formas.
 
@@ -39,7 +39,7 @@ Um banco de dados convencionais possui dados básicos como dos tipos texto, núm
 
 Os tipos de dados espaciais são organizados em uma hierarquia de tipos. Cada sub-tipo herda a estrutura (atributos) e o comportamento (métodos ou funções) do seu super-tipo.
 
-## 2.1.2 Índices espaciais e Retângulo Envolvente Mínimo R.E.M (Bounding Boxes)
+## 2.2 Índices espaciais e Retângulo Envolvente Mínimo R.E.M (Bounding Boxes)
 
 Um banco de dados comum fornece "métodos de acesso" (comumente conhecidos como índices) para permitir acesso rápido e aleatório a subconjuntos de dados. A indexação de tipos padrão (números, textos, datas) geralmente é feita com índices de árvore binária. Uma árvore binária divide os dados usando a ordem de classificação natural para colocar os dados em uma árvore hierárquica.
 
@@ -55,7 +55,7 @@ A principal utilidade dos índices é sua resposta rápida. Por isso, ao invés 
 
 Existem vários tipos de índices espaciais implementados em sistema de bancos de dados espaciais. A implementação mais comum é a Árvore-R ([R-Tree](http://en.wikipedia.org/wiki/R-tree)), usado no PostGIS, mas também há [Quadtrees](http://en.wikipedia.org/wiki/Quadtree), Árvore-k-d ([k-d-trees](https://en.wikipedia.org/wiki/K-d_tree)), [Grid Files](http://en.wikipedia.org/wiki/Grid_(spatial_index)), entre outros.
 
-## 2.1.3 Funções Espaciais
+## 2.3 Funções Espaciais
 
 Para manipular dados durante uma consulta, um banco de dados comum fornece funções como concatenar texto, fazer cálculos e extrair informações de datas. Um banco de dados espacial fornece um conjunto completo de funções para análise de componentes geométricos, determinação de relações espaciais e manipulação de geometrias. Essas funções espaciais servem de base para qualquer projeto espacial.
 
@@ -73,17 +73,17 @@ A maioria das funções espaciais podem ser agrupadas em uma das seguintes categ
 
 A lista de funções espaciais é bem ampla. As mais comumente implementadas são definida pela Open Geospatial Consortium ([OGC](http://www.opengeospatial.org/)) a partir da especificação "OpenGIS Implementation Specification for Geographic information-Simple feature access" ([SFSQL](http://www.opengeospatial.org/standards/sfa)) ou pela ISO a partir da "ISO/IEC 13249-3:2016 Part 3: Spatial" ([SQLMM](https://www.iso.org/standard/60343.html)). Mas nada impede que os softwares de sistema de banco de dados espaciais adotem as suas própras funções espaciais. No caso do PostGIS, ele possui várias funções espaciais implementadas pela OGC/ISO, bem como funções espaciais próprias.
 
-# 2.2 O que é o PostGIS?
+# 2.4 O que é o PostGIS?
 
 O [PostGIS](https://postgis.net/) transforma o Sistema de Gerenciamento de Banco de Dados [PostgreSQL](http://www.postgresql.org/) em um banco de dados espaciais, adicionando suporte para os três recursos: tipos espaciais, índices espaciais e funções espaciais. Como ele é criado no PostgreSQL, o PostGIS herda automaticamente recursos importantes de sistema de banco de dados, bem como utiliza padrões abertos (SQL98, SFSQL/SQLMM) em sua implementação.
 
-## 2.2.1 Mas o que é PostgreSQL?
+## 2.4.1 Mas o que é PostgreSQL?
 
 O PostgreSQL é um poderoso sistema de gerenciamento de banco de dados objeto-relacional (ORDBMS). É lançado sob uma licença de estilo BSD e, portanto, é um software livre e de código aberto. Tal como acontece com muitos outros programas de código aberto, o PostgreSQL não é controlado por nenhuma empresa, mas tem uma comunidade global de desenvolvedores e empresas para desenvolvê-lo.
 
 Desde o início, o PostgreSQL foi projetado para trabalhar com extensão, com capacidade de adicionar novos tipos de dados, funções e métodos de acesso em tempo de execução. Por isso, a extensão PostGIS pode ser desenvolvida por uma equipe de desenvolvimento separada, mas ainda assim continua firmemente integrada ao sistema de banco de dados do PostgreSQL.
 
-### 2.2.1.1 Por que escolher o PostgreSQL?
+### 2.4.1.1 Por que escolher o PostgreSQL?
 
 Uma questão comum de pessoas familiarizadas com bancos de dados de código aberto é "Por que o PostGIS não foi construído no MySQL?".
 
@@ -107,7 +107,7 @@ Combinado, o PostgreSQL fornece um caminho de desenvolvimento muito fácil para 
 
 Como o desenvolvimento para adicionar tipos ao PostgreSQL era tão direto, fazia sentido começar lá. Quando o MySQL lançou tipos espaciais básicos na versão 4.1, a equipe PostGIS examinou seu código e esse exercício reforçou a decisão original de usar o PostgreSQL. Como os objetos espaciais MySQL tiveram que ser construídos sobre tipos do tipo texto como um caso especial, o código MySQL foi espalhado por todo o código base. O desenvolvimento do PostGIS 0.1 levou menos de um mês. Fazer um "MyGIS" 0.1 teria demorado muito e, como tal, talvez nunca tivesse visto a luz do dia.
 
-### 2.2.1.2 Por que não usar Shapefiles?
+### 2.4.1.2 Por que não usar Shapefiles?
 
 O shapefile (e outros formatos de arquivo) tem sido a maneira padrão de armazenar e interagir com dados espaciais desde que o primeiro software de SIG foi escrito. No entanto, esses arquivos de sistema apresentam as seguintes desvantagens:
 
@@ -121,7 +121,7 @@ A maioria dos usuários do PostGIS configuram sistemas em que vários aplicativo
 
 Em resumo, o acesso simultâneo aos dados por vários usuários, consultas ad hoc complexas e alto desempenho em grandes conjuntos de dados são o que separa os sistemas de bancos de dados espaciais dos sistemas baseados em arquivos.
 
-### 2.2.1.3 Por que usar o Geopackage?
+### 2.4.1.3 Por que usar o Geopackage?
 
 GeoPackage (GPKG) é um formato de dados espaciais aberto, não proprietário, independente de plataforma e é baseado em padrões para sistema de informações geográficas implementado como um contêiner de banco de dados SQLite. Definido pela Open Geospatial Consortium (OGC) com o apoio dos militares dos EUA e publicado em 2014, o GeoPackage recebeu amplo apoio  de várias organizações governamentais, comerciais e de código aberto.
 
@@ -131,7 +131,7 @@ O GeoPackage foi projetado para ser o mais leve possível, compartilhado em um �
 
 Se comparado com o shapefile, o geopackage suporta tipos de dados não espaciais como inteiro, real, texto, blob, data, valores nulos, bem como não possui limitação no comprimento do nome da coluna das tabelas, que no shapefile possui limitação de 10 caracteres. Mas, uma das principais diferenças entre o Shapefile e o Geopackage é que o shapefile possui limite em sua capacidade de armazenamento de 2 GB, enquanto o limite do Geopakcage é bem superior: 140 mil GB.
 
-## 2.2.3 Um breve histórico do PostGIS
+## 2.4.3 Um breve histórico do PostGIS
 
 Em maio de 2001, a [Refractions Research](http://www.refractions.net/) lançou a primeira versão do PostGIS. O PostGIS 0.1 teve objetos, índices e umas poucas funções. O resultado foi um banco de dados adequado para armazenamento e para recuperação de dados, mas não adequado para análise de dados.
 
@@ -147,11 +147,11 @@ No PostGIS 1.0, esta nova representação, mais rápida e leve, tornou-se o padr
 
 Com foco contínuo no desempenho, o PostGIS 1.4 melhorou significativamente a velocidade de processamneto das funções e consultas que utilizam geometrias.
 
-## 2.2.4 Quem usa PostGIS?
+## 2.4.4 Quem usa PostGIS?
 
 Para uma lista completa de estudos de caso, veja a página de [estudos de caso que utilizam PostGIS](http://postgis.net/casestudy).
 
-## 2.2.5 Quais aplicativos oferecem suporte ao PostGIS?
+## 2.4.5 Quais aplicativos oferecem suporte ao PostGIS?
 
 A PostGIS tornou-se um banco de dados espacial amplamente utilizado, e o número de programas de terceiros que oferecem suporte ao armazenamento e recuperação de dados usando essa extensão também aumentou. [programas que oferecem suporte ao PostGIS](http://trac.osgeo.org/postgis/wiki/UsersWikiToolsSupportPostgis) incluem softwares de código aberto e proprietário em sistemas servidor e desktop.
 
