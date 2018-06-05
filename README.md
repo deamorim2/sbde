@@ -23,8 +23,7 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 8. [Junção de Tabelas em SQL(Join)](https://github.com/deamorim2/sbde/blob/master/wiki/08/texto.md)
 
 9. [Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/blob/master/wiki/09/texto.md)
-
-10. [Exercícios de Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/blob/master/wiki/10/texto.md) 
+ 10. [Exercícios de Dados Espaciais Geométricos](https://github.com/deamorim2/sbde/blob/master/wiki/10/texto.md) 
 
 11. [Relacionamentos Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/11/texto.md)
 
@@ -74,7 +73,7 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 
 34. Atualização de Softwares
 
-# Parte II:
+# Parte II - Projeto de Banco de Dados Espaciais
 
 1. Modelagem Conceitual
 
