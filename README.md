@@ -18,7 +18,7 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 
 6. [Sobre os Dados Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/06/texto.md)
 
-7. [Consulta Simples SQL](https://github.com/deamorim2/sbde/blob/master/wiki/07/texto.md)
+U. [Consulta Simples SQL](https://github.com/deamorim2/sbde/blob/master/wiki/07/texto.md)
 
 8. [Junção de Tabelas em SQL(Join)](https://github.com/deamorim2/sbde/blob/master/wiki/08/texto.md)
 
@@ -60,7 +60,7 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 
 27. Procura Pelo vizinho Mais Próximo
 
-28. Rastreamento de Histórico de Edição utilizando Triggers
+28. Rastreamento de Histórico de Edição Utilizando Triggers
 
 29. Funções Avançadas de Construção de Geometrias
 
