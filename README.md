@@ -18,7 +18,7 @@ Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais
 
 6. [Sobre os Dados Espaciais](https://github.com/deamorim2/sbde/blob/master/wiki/06/texto.md)
 
-U. [Consulta Simples SQL](https://github.com/deamorim2/sbde/blob/master/wiki/07/texto.md)
+7. [Consulta Simples SQL](https://github.com/deamorim2/sbde/blob/master/wiki/07/texto.md)
 
 8. [Junção de Tabelas em SQL(Join)](https://github.com/deamorim2/sbde/blob/master/wiki/08/texto.md)
 
@@ -74,3 +74,10 @@ U. [Consulta Simples SQL](https://github.com/deamorim2/sbde/blob/master/wiki/07/
 
 34. Atualização de Softwares
 
+# Parte II:
+
+1. Modelagem Conceitual
+
+2. Criação de Esquema Lógico
+
+3. Implementação Física
