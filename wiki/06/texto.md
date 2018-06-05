@@ -1,4 +1,6 @@
-﻿# 6.1 Base Cartográfica Contínua do Brasil, escala 1:250.000
+# 6. Sobre os Dados Espaciais
+
+# 6.1 Base Cartográfica Contínua do Brasil, escala 1:250.000
 
 Esses dados fazem parte da Base Cartográfica Contínua do Brasil, escala 1:250.000 (BC250), produzida pelo Instituto Brasileiro de Geografia e Estatística (IBGE).
 
