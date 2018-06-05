@@ -1,6 +1,6 @@
 # SISTEMA DE BANCO DE DADOS ESPACIAIS(SBDE)
 
-Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais**
+Bem vindo ao material de apoio do curso de **Sistema de Banco de Dados Espaciais** versão 1.0
 
 # SUMÁRIO
 
