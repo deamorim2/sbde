@@ -129,7 +129,7 @@ Conforme necessário, Vacuuming e Analyzing podem ser executados separadamente n
 
     VACUUM ANALYZE lim_municipio_a;
 
-15.5 Lista de funções
+# 15.5 Lista de funções
 
 * geometry_a && geometry_b: retorna TRUE se o retângulo mínimo envolvente de A sobrepor B.
 * geometry_a = geometry_b: retorna TRUE se o retângulo mínimo envolvente de A for igual à de B.
