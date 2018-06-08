@@ -188,34 +188,3 @@ Vamos comparar uma consulta utilizando somente índice e uma consulta mais exata
 ![https://github.com/deamorim2/sbde/blob/master/wiki/15/pgadmin_04.png](https://github.com/deamorim2/sbde/blob/master/wiki/15/pgadmin_04.png)
 
 Uma resposta muito menor! A primeira consulta resumiu todos os blocos que cruzavam a caixa delimitadora dos trechos rodoviários da "BR-040". A segunda consulta apenas resumia os trechos rodoviários que cruzavam os municípios.
-
-# 30.10 Analyzing
-
-O planejador de consulta PostgreSQL escolhe inteligentemente quando usar ou não índices para avaliar uma consulta. Contra intuitivamente, nem sempre é mais rápido fazer uma pesquisa de índice: se a pesquisa vai retornar todos os registros na tabela, percorrer a árvore de índice para obter cada registro será realmente mais lento do que ler linearmente a tabela inteira desde o início.
-
-Para descobrir com qual situação ele está lidando (lendo uma pequena parte da tabela versus lendo uma grande parte da tabela), o PostgreSQL mantém estatísticas sobre a distribuição de dados em cada coluna da tabela indexada.
-
-Por padrão, o PostgreSQL reúne estatísticas regularmente. No entanto, se você mudar drasticamente a composição da sua tabela dentro de um curto período de tempo, as estatísticas não serão atualizadas.
-
-Para garantir que suas estatísticas correspondam ao conteúdo da sua tabela, é aconselhável executar o comando ANALYZE depois que os dados em massa forem carregados e excluídos em suas tabelas. Isso força o sistema de estatísticas a coletar dados para todas as suas colunas indexadas.
-
-O comando ANALYZE pede ao PostgreSQL para percorrer a tabela e atualizar suas estatísticas internas usadas para a estimativa do plano de consulta (a análise do plano de consulta será discutida mais adiante).
-
-    ANALYZE tra_trecho_rodoviario_l;
-    ANALYZE lim_municipio_a;
-
-# 30.11 Vacuuming
-
-Vale ressaltar que apenas criar um índice não é suficiente para permitir que o PostgreSQL o use de forma eficaz. O VACUUMing deve ser executado sempre que um novo índice é criado ou após um grande número de UPDATEs, INSERTs ou DELETEs serem emitidos em uma tabela.
-
-O comando VACUUM solicita que o PostgreSQL recupere qualquer espaço não utilizado nas páginas da tabela deixadas por atualizações ou exclusões nos registros.
-
-O VACUUMing é tão essencial para a execução eficiente do banco de dados que o PostgreSQL oferece uma opção de “autovacuum”. Ativado por padrão, o autovacuum remove ambos os VACUUM (recupera espaço) e analisa (atualiza as estatísticas) em suas tabelas em intervalos razoáveis determinados pelo nível de atividade. Embora isso seja essencial para bancos de dados altamente transacionais, não é aconselhável aguardar uma execução de autovacuum após adicionar índices ou dados de carregamento em massa. Se uma grande atualização em lote for executada, você deverá executar manualmente o VACUUM.
-
-Conforme necessário, Vacuuming e Analyzing podem ser executados separadamente no banco de dados. A emissão do comando VACUUM não atualizará as estatísticas do banco de dados. Da mesma forma, a emissão de um comando ANALYZE não recuperará linhas de tabela não utilizadas. Ambos os comandos podem ser executados em todo o banco de dados, em uma única tabela ou em uma única coluna.
-
->Execute as lindas de comando abaixo um de cada vez:
-
-    VACUUM ANALYZE tra_trecho_rodoviario_l;
-
-    VACUUM ANALYZE lim_municipio_a;
