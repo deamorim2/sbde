@@ -161,30 +161,3 @@ A maneira mais fácil de fazer isso é reiniciar o serviço PostgreSQL.
 ![https://github.com/deamorim2/sbde/blob/master/wiki/30/pgadmin_11.png](https://github.com/deamorim2/sbde/blob/master/wiki/30/pgadmin_11.png)
 
 * De volta ao pgAdmin, clique no servidor novamente e selecione _Connect_.
-
-A maioria das funções comumente usadas no PostGIS (ST_Contains, ST_Intersects, ST_DWithin, etc) inclui um filtro de índice espacial automaticamente. Mas algumas funções (por exemplo, ST_Relate) não incluem e indexam o filtro.
-
-Para fazer uma pesquisa de Retângulo Envolvente Mínimo usando o índice (e sem filtragem), faça uso do operador `&&`. Para geometrias, o operador `&&` significa “Retângulos Envolventes Mínimos se sobrepõem ou tocam” da mesma maneira que para o número o `=` operador significa que “os valores são os mesmos”.
-
-Vamos comparar uma consulta utilizando somente índice e uma consulta mais exata.
-
-**Usando o operador `&&` como consulta somente de índice:**
-
-    SELECT DISTINCT mue.nome
-    FROM lim_municipio_a mue
-    JOIN tra_trecho_rodoviario_l rod ON (rod.geom && mue.geom)
-    WHERE rod.codtrechor = 'BR-040';
-
-
-![https://github.com/deamorim2/sbde/blob/master/wiki/15/pgadmin_03.png](https://github.com/deamorim2/sbde/blob/master/wiki/15/pgadmin_03.png)
-
-**Agora vamos fazer a mesma consulta usando a função ST_Intersects, que é mais exata.**
-
-    SELECT DISTINCT mue.nome
-    FROM lim_municipio_a mue
-    JOIN tra_trecho_rodoviario_l rod ON ST_Intersects(rod.geom, mue.geom)
-    WHERE rod.codtrechor = 'BR-040';
-
-![https://github.com/deamorim2/sbde/blob/master/wiki/15/pgadmin_04.png](https://github.com/deamorim2/sbde/blob/master/wiki/15/pgadmin_04.png)
-
-Uma resposta muito menor! A primeira consulta resumiu todos os blocos que cruzavam a caixa delimitadora dos trechos rodoviários da "BR-040". A segunda consulta apenas resumia os trechos rodoviários que cruzavam os municípios.
