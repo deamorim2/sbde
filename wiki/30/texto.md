@@ -98,7 +98,7 @@ O mesmo argumento acima se aplica para dados espaciais, que são grandes o sufic
 
 ***
 **Nota:**
-Caso o servidor não inicie, desmarque essa opção.
+ caso o servidor não inicie, desmarque essa opção.
 ***
 
 # 30.6 random_page_cost
