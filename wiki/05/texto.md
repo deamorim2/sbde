@@ -131,10 +131,11 @@ ou diretamente dentro do PostGIS com uma consulta para a tabela spatial_ref_sys:
 
 ![https://github.com/deamorim2/sbde/blob/master/wiki/05/pgshapeloader_16.png](https://github.com/deamorim2/sbde/blob/master/wiki/05/pgshapeloader_16.png)
 
-
+***
 **Nota:**
 
-**A tabela spatial_ref_sys PostGIS é uma tabela OGC padrão que define todos os sistemas de referência espacial     conhecidos pelo banco de dados. Os dados fornecidos pelo PostGIS, lista mais de 3000 sistemas de referência espacial     conhecidos e detalhes necessários para transformar/re-projetar dados entre si.**
+A tabela spatial_ref_sys PostGIS é uma tabela OGC padrão que define todos os sistemas de referência espacial     conhecidos pelo banco de dados. Os dados fornecidos pelo PostGIS, lista mais de 3000 sistemas de referência espacial     conhecidos e detalhes necessários para transformar/re-projetar dados entre si.
+***
 
 
 Em ambos os casos, você vê uma representação textual do sistema de referência espacial 4674 (impresso abaixo para maior clareza):
