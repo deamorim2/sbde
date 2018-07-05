@@ -28,7 +28,7 @@ Vá até o site https://www.postgresql.org/download/ , baixe e instale a versão
 
 >Defina a senha do usuário `postgres` como _postgres_ e clique no botão _Next >_
 
-[https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png)
+![https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_04.png)
 
 >Defina a porta padrão _5432_ e clique no botão _Next >_
 
