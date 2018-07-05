@@ -11,8 +11,8 @@ Exemplos comuns de recursos que são modelados usando referência linear são:
 
 O benefício dos modelos de referência linear é que as observações espaciais dependentes não precisam ser gravadas separadamente das observações de base, e atualizações na camada de observação base podem ser realizadas sabendo que as observações dependentes rastrearão automaticamente a nova geometria.
 ***
-**Nota**
-A convenção ESRI para referência linear é ter uma tabela base de recursos espaciais lineares e uma tabela não espacial de “eventos” que inclui uma referência de chave estrangeira para o recurso espacial e uma medida ao longo do recurso referenciado. Usaremos o termo “tabela de interferências” para nos referirmos às tabelas não espaciais que construímos.
+**Nota:**
+ por convenção, a ESRI utiliza, para referência linear, uma tabela base de recursos espaciais lineares e uma tabela não espacial de “eventos” que inclui uma referência de chave estrangeira para o recurso espacial e uma medida ao longo do recurso referenciado. Usaremos o termo “tabela de interferências” para nos referirmos às tabelas não espaciais que construímos.
 ***
 
 # 23.1. Criando Referências Lineares
@@ -94,8 +94,8 @@ Ao visualizar os pontos original (estrela vermelha) e interferência (círculo a
 ![https://github.com/deamorim2/sbde/blob/master/wiki/23/qgis_01.png](https://github.com/deamorim2/sbde/blob/master/wiki/23/qgis_01.png)
 
 ***
-**Nota**
-Um uso surpreendente das funções de referência linear não tem nada a ver com modelos de referência linear. Como mostrado acima, é possível usar as funções para encaixar pontos em recursos lineares. Para casos de uso, como trilhas de GPS ou outras entradas que devem referenciar uma rede linear, o snap é um recurso útil disponível.
+**Nota:**
+ um uso surpreendente das funções de referência linear não tem nada a ver com modelos de referência linear. Como mostrado acima, é possível usar as funções para encaixar pontos em recursos lineares. Para casos de uso, como trilhas de GPS ou outras entradas que devem referenciar uma rede linear, o snap é um recurso útil disponível.
 ***
 
 # 23.2. Lista de funções
