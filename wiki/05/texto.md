@@ -133,8 +133,7 @@ ou diretamente dentro do PostGIS com uma consulta para a tabela spatial_ref_sys:
 
 ***
 **Nota:**
-
-A tabela spatial_ref_sys PostGIS é uma tabela OGC padrão que define todos os sistemas de referência espacial     conhecidos pelo banco de dados. Os dados fornecidos pelo PostGIS, lista mais de 3000 sistemas de referência espacial     conhecidos e detalhes necessários para transformar/re-projetar dados entre si.
+ a tabela spatial_ref_sys PostGIS é uma tabela OGC padrão que define todos os sistemas de referência espacial     conhecidos pelo banco de dados. Os dados fornecidos pelo PostGIS, lista mais de 3000 sistemas de referência espacial     conhecidos e detalhes necessários para transformar/re-projetar dados entre si.
 ***
 
 
