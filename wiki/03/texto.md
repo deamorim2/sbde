@@ -21,9 +21,9 @@ Vá até o site https://www.postgresql.org/download/ , baixe e instale a versão
 ***
 **Dica de brother:**
 
-1 - Se possível, instale os arquivos de programa no drive `C:\` e os dados do banco no drive `D:\`.
+**Dica 1** - Se possível, instale os arquivos de programa no drive `C:\` e os dados do banco no drive `D:\`.
 
-2 - Utilize para o drive onde estarão os dados _hard drive_ do tipo SSD.
+**Dica 2** - Utilize para o drive onde estarão os dados _hard drive_ do tipo SSD.
 ***
 
 >Defina a senha do usuário `postgres` como _postgres_ e clique no botão _Next >_
@@ -48,8 +48,7 @@ Vá até o site https://www.postgresql.org/download/ , baixe e instale a versão
 
 ***
 **Nota:**
-
-Se você deseja instalar a versão mais atual do PostGIS, deixe marcado a opção de executar o _stack builder_ e prossiga com a instalação marcando a opção da extensão espacial. No nosso caso, nós iremos instalar uma versão específica do PostGIS, por isso desmarcamos essa opção.
+ se você deseja instalar a versão mais atual do PostGIS, deixe marcado a opção de executar o _stack builder_ e prossiga com a instalação marcando a opção da extensão espacial. No nosso caso, nós iremos instalar uma versão específica do PostGIS, por isso desmarcamos essa opção.
 ***
 
 # 3.2 PostGIS
@@ -114,6 +113,5 @@ Vá até o site https://www.qgis.org/en/site/index.html , baixe e instale a vers
 
 ***
 **Nota:**
-
-Você pode instalar mais de uma versão do QGIS no seu computador, não precisando remover a instalação anterior.
+ você pode instalar mais de uma versão do QGIS no seu computador, não precisando remover a instalação anterior.
 ***
