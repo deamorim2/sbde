@@ -115,5 +115,5 @@ Vá até o site https://www.qgis.org/en/site/index.html , baixe e instale a vers
 ***
 **Nota:**
 
-Você pode instalar mais de uma versão do QGIS no seu computador, não precisando remover a instalação anterior.**
+Você pode instalar mais de uma versão do QGIS no seu computador, não precisando remover a instalação anterior.
 ***
