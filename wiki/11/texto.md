@@ -75,8 +75,8 @@ ST_Equals(geometria A, geometria B) - testa a igualdade espacial de duas geometr
 ***
     Patos de Minas
 ***
-**Nota**
-A representação do ponto não é muito legível nesse formato (0101000020421200004D8F4809F14247C0A5B7586D589732C0), mas era uma representação exata dos valores das coordenadas. Para um teste como igualdade, é necessário usar as coordenadas exatas.
+**Nota:**
+ a representação do ponto não é muito legível nesse formato (0101000020421200004D8F4809F14247C0A5B7586D589732C0), mas era uma representação exata dos valores das coordenadas. Para um teste como igualdade, é necessário usar as coordenadas exatas.
 ***
 # 11.3. ST_Intersects
 
