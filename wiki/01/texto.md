@@ -42,8 +42,7 @@ Exemplo:
 
 ***
 **Nota:**
-    
-Aqui está o exemplo de uma notação que é útil, porém não é essencial ao entendimento do processo.
+ aqui está o exemplo de uma notação que é útil, porém não é essencial ao entendimento do processo.
 ***
 
 ### 1.2.4. Funções
