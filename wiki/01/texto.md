@@ -2,74 +2,75 @@
 
 ## 1.1 Sobre Este Tutorial
 
-Esse Tutorial apresenta uma soluÁ„o completa de implementaÁ„o de um Sistema de Banco de Dados Espaciais em Sistema Gerenciador de Banco de Dados Objeto-Relacional e est· dividido em duas partes:
+Esse Tutorial apresenta uma solu√ß√£o completa de implementa√ß√£o de um Sistema de Banco de Dados Espaciais em Sistema Gerenciador de Banco de Dados Objeto-Relacional e est√° dividido em duas partes:
 
 Parte I:
 
-1. **IntroduÁ„o ao PostGIS**
+1. **Introdu√ß√£o ao PostGIS**
 
 Parte II:
 
 1. **Modelagem Conceitual**
-2. **CriaÁ„o de Esquema LÛgico**
-3. **ImplementaÁ„o FÌsica**
+2. **Cria√ß√£o de Esquema L√≥gico**
+3. **Implementa√ß√£o F√≠sica**
 
-A parte I desse tutorial foi baseado no workshop [Introduction to PostGIS](http://workshops.boundlessgeo.com/postgis-intro/) da empresa [Boundless](https://boundlessgeo.com/) e est· de acordo com a LicenÁa Creative Commons AtribuiÁ„o-N„oComercial-CompartilhaIgual 4.0 Internacional.
+A parte I desse tutorial foi baseado no workshop [Introduction to PostGIS](http://workshops.boundlessgeo.com/postgis-intro/) da empresa [Boundless](https://boundlessgeo.com/) e est√° de acordo com a Licen√ßa Creative Commons Atribui√ß√£o-N√£oComercial-CompartilhaIgual 4.0 Internacional.
 
 ## 1.2 Como usar esse tutorial 
 
-### 1.2.1. InstruÁıes
+### 1.2.1. Instru√ß√µes
 
-As instruÁıes s„o indicadas pelo tipo de notaÁ„o abaixo:
+As instru√ß√µes s√£o indicadas pelo tipo de nota√ß√£o abaixo:
 
 Exemplo:
 
->Clique no bot„o _Next_ para continuar.
+>Clique no bot√£o _Next_ para continuar.
 
-### 1.2.2. CÛdigo
+### 1.2.2. C√≥digo
 
-InstruÁıes em SQL ou PLPGSQL s„o apresentadas em uma caixa como no formato abaixo:
+Instru√ß√µes em SQL ou PLPGSQL s√£o apresentadas em uma caixa como no formato abaixo:
 
     SELECT postgis_full_version();
 
 Este exemplo pode ser executado a partir de uma janela de consulta ou por meio de linhas de comando.
 
-### 1.2.3. NotaÁıes
+### 1.2.3. Nota√ß√µes
 
-NotaÁıes s„o utilizadas para fornecer informaÁıes que s„o ˙teis, mas n„o s„o crÌticas para o entendimento do tÛpico.
+Nota√ß√µes s√£o utilizadas para fornecer informa√ß√µes que s√£o √∫teis, mas n√£o s√£o cr√≠ticas para o entendimento do t√≥pico.
 
 Exemplo:  
 
-    NotaÁ„o:
+***
+**Nota√ß√£o:**
     
-    Aqui est· o exemplo de uma notaÁ„o que È ˙til, porÈm n„o È essencial ao entendimento do
-    processo.
+Aqui est√° o exemplo de uma nota√ß√£o que √© √∫til, por√©m n√£o √© essencial ao entendimento do processo.
+***
 
-### 1.2.4. FunÁıes
+### 1.2.4. Fun√ß√µes
 
-As funÁıes s„o definidas a partir de fonte de texto em negrito.
+As fun√ß√µes s√£o definidas a partir de fonte de texto em negrito.
 
 Exemplo:
 
->**ST_Touches(geometry A, geometry B)** returns TRUE if either of the geometriesí boundaries intersect
+>**ST_Touches(geometry A, geometry B)** returns TRUE if either of the geometries‚Äô boundaries intersect
 
 ### 1.2.5. Arquivos, Esquemas, Tabelas e Colunas
 
-Nomes de Arquivos, Esquemas, Tabelas e Colunas s„o representados por uma caixa envoltÛria ao nome como no exemplo abaixo:
+Nomes de Arquivos, Esquemas, Tabelas e Colunas s√£o representados por uma caixa envolt√≥ria ao nome como no exemplo abaixo:
 
 >Selecione o atributo `nome` na tabela `municipio`.
 
-### 1.2.6. Menus, Submenus, Botıes e Outros Elementos
+### 1.2.6. Menus, Submenus, Bot√µes e Outros Elementos
 
-Menus/submenus, botıes e outros elementos de interface gr·fica como campos ou check box s„o apresentados na formataÁ„o de texto it·lico.
+Menus/submenus, bot√µes e outros elementos de interface gr√°fica como campos ou check box s√£o apresentados na formata√ß√£o de texto it√°lico.
 
 Exemplo:
 
 >Clique em _Arquivo > Novo_.
 
->Marque a opÁ„o com a palavra _Confirma_
+>Marque a op√ß√£o com a palavra _Confirma_
 
-## 1.3 Requisitos TecnolÛgicos
+## 1.3 Requisitos Tecnol√≥gicos
 
 Postgresql 9.0+
 
