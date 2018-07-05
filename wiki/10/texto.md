@@ -42,8 +42,7 @@ Aqui está um lembrete de todas as funções que vimos até agora. Eles devem se
     WHERE ST_NumInteriorRings(ST_GeometryN(geom,1)) > 0;
 ***
 **Nota**
-
-As funções ST_NRings() podem ser tentadoras, mas também conta os anéis externos de multi-polígonos, bem como os anéis internos. Para executar ST_NumInteriorRings (), precisamos converter as geometrias de MultiPolygon dos município em polígonos simples, portanto, extraímos o primeiro polígono de cada coleção usando ST_GeometryN().
+ as funções ST_NRings() podem ser tentadoras, mas também conta os anéis externos de multi-polígonos, bem como os anéis internos. Para executar ST_NumInteriorRings (), precisamos converter as geometrias de MultiPolygon dos município em polígonos simples, portanto, extraímos o primeiro polígono de cada coleção usando ST_GeometryN().
 ***
 >"Qual é a representação JSON do limite do estado do 'Sergipe'?"
 
@@ -72,7 +71,6 @@ As funções ST_NRings() podem ser tentadoras, mas também conta os anéis exter
 
 ***
 **Nota**
-
-Não é incomum encontrar MultiPolygons de elemento único em tabelas espaciais. O uso de MultiPolygons permite que uma tabela com apenas um tipo de geometria armazene geometrias simples e múltiplas sem usar tipos mistos.
+ não é incomum encontrar MultiPolygons de elemento único em tabelas espaciais. O uso de MultiPolygons permite que uma tabela com apenas um tipo de geometria armazene geometrias simples e múltiplas sem usar tipos mistos.
 ***
 
