@@ -144,8 +144,7 @@ Como um exemplo de agregação ST_Union, considere nossa tabela `lim_unidade_fed
     GROUP BY macrorregiao, substring(geocodigo from 1 for 1);
 ***
 **Nota:**
-
-A função **ST_MemUnion** é a mesma que **ST_Union**, apenas compatível com memória (usa menos memória e mais tempo de processador). Essa função de agregação funciona unindo as geometrias, uma de cada vez, ao resultado anterior, em oposição ao agregado ST_Union, que cria primeiro uma matriz e, em seguida, faz as uniões.
+ a função **ST_MemUnion** é a mesma que **ST_Union**, apenas compatível com memória (usa menos memória e mais tempo de processador). Essa função de agregação funciona unindo as geometrias, uma de cada vez, ao resultado anterior, em oposição ao agregado ST_Union, que cria primeiro uma matriz e, em seguida, faz as uniões.
 ***
 
 ![https://github.com/deamorim2/sbde/blob/master/wiki/19/qgis_06.png](https://github.com/deamorim2/sbde/blob/master/wiki/19/qgis_06.png)
