@@ -40,9 +40,8 @@ Para calcular uma distância significativa, devemos tratar coordenadas geográfi
 A partir da versão 1.5, o PostGIS fornece essa funcionalidade através do tipo de dado geográfico.
 
 ***
-**Nota**
-
-Diferentes bancos de dados espaciais têm diferentes abordagens para lidar com dados geográficos:
+**Nota:**
+ diferentes bancos de dados espaciais têm diferentes abordagens para lidar com dados geográficos:
 
 * A **Oracle** tenta revisar as diferenças fazendo cálculos geográficos de forma transparente quando o SRID é geográfico.
 * O **SQL Server** usa dois tipos espaciais, “STGeometry” para dados cartesianos e “STGeography” para geográficos.
@@ -186,8 +185,7 @@ Primeiro, como observado anteriormente, há muito menos funções disponíveis q
 Em segundo lugar, os cálculos em uma esfera são computacionalmente muito mais caros do que os cálculos cartesianos. Por exemplo, a fórmula cartesiana para distância (Pitágoras) envolve uma chamada para sqrt(). A fórmula esférica para distância (Haversine) envolve duas chamadas sqrt(), uma chamada arctan(), quatro chamadas sin() e duas chamadas cos(). As funções trigonométricas são muito caras e os cálculos esféricos envolvem muitos deles.
 ***
 **Conclusão:**
-
-Se seus dados forem geograficamente compactos (contidos em um estado, município ou cidade), use o tipo de geometria com uma projeção cartesiana que faça sentido com seus dados.
+ se seus dados forem geograficamente compactos (contidos em um estado, município ou cidade), use o tipo de geometria com uma projeção cartesiana que faça sentido com seus dados.
 
 Veja o site [http://spatialreference.org](http://spatialreference.org) e digite o nome da sua região para uma seleção de possíveis sistemas de referência.
 
