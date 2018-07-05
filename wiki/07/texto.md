@@ -86,8 +86,7 @@ Uma consulta de seleção geralmente é da forma:
 ***
 
 **Nota:**
-
-Para obter uma sinopse de todos os parâmetros SELECT, consulte a [documentação do PostgreSQL](http://www.postgresql.org/docs/current/interactive/sql-select.html).
+ para obter uma sinopse de todos os parâmetros SELECT, consulte a [documentação do PostgreSQL](http://www.postgresql.org/docs/current/interactive/sql-select.html).
 
 ***
 
