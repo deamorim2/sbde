@@ -56,7 +56,7 @@ Agora seus dados estão bem organizados em ordem espacialmente correlacionada!
 
 ***
 **Nota:**
-Se os dados espaciais estão projetados e não estão em lat/long, então precisamos transformar as geometrias ao mesmo tempo que as alteramos.
+ se os dados espaciais estão projetados e não estão em lat/long, então precisamos transformar as geometrias ao mesmo tempo que as alteramos.
 ***
 
 # 25.3. Lista de funções
