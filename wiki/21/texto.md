@@ -163,8 +163,6 @@ A execução do buffer de deslocamento zero no polígono retorna um polígono OG
 ***
     POLYGON((0 0,0 4,4 4,4 0,2 0,0 0),(2 0,3 1,2 2,1 1,2 0))
 ***
-**Nota**
-
-
-O “polígono da banana” (ou “casca invertida”) é um caso em que o modelo de topologia OGC para geometria válida e o modelo usado internamente pela ESRI são diferentes. O modelo ESRI considera os anéis que tocam como inválidos e prefere a forma de banana para esse tipo de formato. O modelo OGC é o inverso. Nenhum deles é "correto", eles são apenas maneiras diferentes de modelar a mesma situação.
+**Nota:**
+ o “polígono da banana” (ou “casca invertida”) é um caso em que o modelo de topologia OGC para geometria válida e o modelo usado internamente pela ESRI são diferentes. O modelo ESRI considera os anéis que tocam como inválidos e prefere a forma de banana para esse tipo de formato. O modelo OGC é o inverso. Nenhum deles é "correto", eles são apenas maneiras diferentes de modelar a mesma situação.
 ***
