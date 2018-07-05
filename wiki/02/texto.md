@@ -1,3 +1,4 @@
+
 # 2. Sistema de Banco de Dados Espaciais
 
 Um exemplo de Sistema de Banco de Dados Espaciais é o Sistema Gerenciador de Banco de Dados Objeto-Relacional distribuído [PostgreSQL](http://www.postgresql.org/) e a extensão espacial [PostGIS](https://postgis.net/).
@@ -32,6 +33,7 @@ Os sistemas de banco de dados espaciais integram dados espaciais em um sistema d
 
 ***
 **Nota:**
+
 No Brasil, o termo Sistema de Banco de Dados Geográficos é bem mais difundido que o termo Sistema de Banco de Dados Espaciais. Porém, os Sistemas de Banco de Dados Espaciais podem ser utilizado em aplicações além do mundo geográfico. Os bancos de dados espaciais podem ser usados para gerenciar dados relacionados à anatomia do corpo humano, circuitos integrados de grande escala, estruturas moleculares, campos eletromagnéticos, entre outros. Além disso, em relação aos tipos de dados espaciais, pode-se armazenar dados dos tipos geométricos, geográficos, topológicos e raster.
 ***
 
