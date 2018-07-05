@@ -1,4 +1,4 @@
-﻿Aqui está um lembrete de algumas das funções que vimos. Dica: eles devem ser úteis para os exercícios!
+Aqui está um lembrete de algumas das funções que vimos. Dica: eles devem ser úteis para os exercícios!
 
 * sum(expression): função de agregação para retornar uma soma para um conjunto de registros
 * count(expression): função de agregação para retornar o tamanho de um conjunto de registros
