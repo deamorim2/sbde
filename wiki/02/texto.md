@@ -33,8 +33,7 @@ Os sistemas de banco de dados espaciais integram dados espaciais em um sistema d
 
 ***
 **Nota:**
-
-No Brasil, o termo Sistema de Banco de Dados Geográficos é bem mais difundido que o termo Sistema de Banco de Dados Espaciais. Porém, os Sistemas de Banco de Dados Espaciais podem ser utilizado em aplicações além do mundo geográfico. Os bancos de dados espaciais podem ser usados para gerenciar dados relacionados à anatomia do corpo humano, circuitos integrados de grande escala, estruturas moleculares, campos eletromagnéticos, entre outros. Além disso, em relação aos tipos de dados espaciais, pode-se armazenar dados dos tipos geométricos, geográficos, topológicos e raster.
+ no Brasil, o termo Sistema de Banco de Dados Geográficos é bem mais difundido que o termo Sistema de Banco de Dados Espaciais. Porém, os Sistemas de Banco de Dados Espaciais podem ser utilizado em aplicações além do mundo geográfico. Os bancos de dados espaciais podem ser usados para gerenciar dados relacionados à anatomia do corpo humano, circuitos integrados de grande escala, estruturas moleculares, campos eletromagnéticos, entre outros. Além disso, em relação aos tipos de dados espaciais, pode-se armazenar dados dos tipos geométricos, geográficos, topológicos e raster.
 ***
 
 ## 2.1 Tipos de dados espaciais
