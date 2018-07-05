@@ -41,7 +41,7 @@ Aqui está um lembrete de todas as funções que vimos até agora. Eles devem se
     FROM lim_municipio_a
     WHERE ST_NumInteriorRings(ST_GeometryN(geom,1)) > 0;
 ***
-**Nota**
+**Nota:**
  as funções ST_NRings() podem ser tentadoras, mas também conta os anéis externos de multi-polígonos, bem como os anéis internos. Para executar ST_NumInteriorRings (), precisamos converter as geometrias de MultiPolygon dos município em polígonos simples, portanto, extraímos o primeiro polígono de cada coleção usando ST_GeometryN().
 ***
 >"Qual é a representação JSON do limite do estado do 'Sergipe'?"
@@ -70,7 +70,7 @@ Aqui está um lembrete de todas as funções que vimos até agora. Eles devem se
     ORDER BY ST_NumGeometries(geom) DESC;
 
 ***
-**Nota**
+**Nota:**
  não é incomum encontrar MultiPolygons de elemento único em tabelas espaciais. O uso de MultiPolygons permite que uma tabela com apenas um tipo de geometria armazene geometrias simples e múltiplas sem usar tipos mistos.
 ***
 
