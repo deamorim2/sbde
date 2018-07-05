@@ -35,8 +35,7 @@ Usando uma junção espacial (ST_Intersects/ST_Contains/ST_Within), podemos resp
 ![https://github.com/deamorim2/sbde/blob/master/wiki/13/pgadmin_01.png](https://github.com/deamorim2/sbde/blob/master/wiki/13/pgadmin_01.png)
 ***
 **Nota:**
-
-Repare que nas instruções 1 e 2 a utilização das funções espaciais `ST_Contains` e `ST_Within` leva em consideração a sintaxe das geometrias `A` e `B`. No primeiro, `Unidade da Federação` CONTÉM uma `Capital`, enquanto que no segundo exemplo `Capital` ESTÁ DENTRO da `Unidade da Federação`.
+ repare que nas instruções 1 e 2 a utilização das funções espaciais `ST_Contains` e `ST_Within` leva em consideração a sintaxe das geometrias `A` e `B`. No primeiro, `Unidade da Federação` CONTÉM uma `Capital`, enquanto que no segundo exemplo `Capital` ESTÁ DENTRO da `Unidade da Federação`.
 Já nas instruções 3 e 4, tanto faz na sintaxe da função `ST_Intersects` quem é `A` ou `B`.
 ***
 
