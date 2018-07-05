@@ -59,9 +59,8 @@ Se você alimentar geometrias com diferentes SRIDs, você receberá um erro:
     SQL state: XX000
     Context: SQL function "st_equals" statement 1
 ***
-**Nota**
-
-Cuidado com o uso do ST_Transform para conversões on-the-fly. Os índices espaciais são construídos usando o SRID das geometrias armazenadas. Se a comparação for feita em um SRID diferente, os índices espaciais(geralmente) não são utilizados. É uma boa prática escolher um SRID para todas as tabelas em seu banco de dados. Use somente a função de transformação quando estiver lendo ou gravando dados em aplicativos externos.
+**Nota:**
+ cuidado com o uso do ST_Transform para conversões on-the-fly. Os índices espaciais são construídos usando o SRID das geometrias armazenadas. Se a comparação for feita em um SRID diferente, os índices espaciais(geralmente) não são utilizados. É uma boa prática escolher um SRID para todas as tabelas em seu banco de dados. Use somente a função de transformação quando estiver lendo ou gravando dados em aplicativos externos.
 ***
 
 # 16.2 Transformando Dados
