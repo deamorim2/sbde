@@ -13,9 +13,8 @@ Nosso primeiro passo é remover o índice espacial de todas as tabelas espaciais
     DROP INDEX public.tra_trecho_rodoviario_l_geom_idx;
 
 ***
-**Nota**
-
-A instrução DROP INDEX descarta um índice existente do sistema de banco de dados. Para mais informações, consulte a [documentação](http://www.postgresql.org/docs/7.4/interactive/sql-dropindex.html) do PostgreSQL.
+**Nota:**
+ a instrução DROP INDEX descarta um índice existente do sistema de banco de dados. Para mais informações, consulte a [documentação](http://www.postgresql.org/docs/7.4/interactive/sql-dropindex.html) do PostgreSQL.
 ***
 
 Agora, observe o medidor “Timing” no canto inferior direito da janela de consulta do pgAdmin depois de executada a instrução SQL abaixo. Essa consulta pesquisa cada município para identificar se existe um trecho rodoviário da BR-040 cruzando-o, ou não.
@@ -46,9 +45,8 @@ Observe que essa consulta levou 4.5 segundos para ser executada.
 
 Repare que a consulta realizada com os índices espaciais levou 1.2 segundos.
 ***
-**Nota**
-
-A cláusula USING GIST diz ao PostgreSQL para usar a estrutura de índice genérica (GIST) ao construir o índice.
+**Nota:**
+ a cláusula USING GIST diz ao PostgreSQL para usar a estrutura de índice genérica (GIST) ao construir o índice.
 ***
 
 # 15.1 Como funcionam os índices espaciais
