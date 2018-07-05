@@ -41,7 +41,7 @@ Notações são utilizadas para fornecer informações que são úteis, mas não
 Exemplo:  
 
 ***
-**Notação:**
+**Nota:**
     
 Aqui está o exemplo de uma notação que é útil, porém não é essencial ao entendimento do processo.
 ***
