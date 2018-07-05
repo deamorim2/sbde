@@ -10,7 +10,7 @@ Vá até o site https://www.postgresql.org/download/ , baixe e instale a versão
 
 ![https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_01.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_01.png)
 
->Selecione o diretório onde o programa **PostgreSQL** será instalado e depois clique no botão _Next >_
+>Selecione o diretório onde o programa **PostgreSQL** será instalado e depois clique no botão _Next>_
 
 ![https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_02.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_postgresql_02.png)
 
@@ -110,5 +110,8 @@ Vá até o site https://www.qgis.org/en/site/index.html , baixe e instale a vers
 
 ![https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_qgis_05.png](https://github.com/deamorim2/sbde/blob/master/wiki/03/instal_qgis_05.png)
 
+***
 **Nota:**
-**você pode instalar mais de uma versão do QGIS no seu computador, não precisando remover a instalação anterior.**
+
+Você pode instalar mais de uma versão do QGIS no seu computador, não precisando remover a instalação anterior.**
+***
