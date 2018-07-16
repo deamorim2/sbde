@@ -27,7 +27,7 @@ Database: **sbde**
 
 ![https://github.com/deamorim2/sbde/blob/master/wiki/05/pgshapeloader_03.png](https://github.com/deamorim2/sbde/blob/master/wiki/05/pgshapeloader_03.png)
 
->Baixe no seu computador o diretório [dados_espaciais](https://drive.google.com/drive/folders/1hOr0W6ZOdj_gZAlwUOfmhOmlT-LBfohP?usp=sharing)
+>Baixe no seu computador o diretório [dados_espaciais](https://drive.google.com/drive/folders/1NiF981KQLdKOoz6u_H_IqdLfqAM2FR6y?usp=sharing)
 
 >Clique no botão _Add File_ e navegue até o diretório de dados espaciais que você baixou:  \dados_espaciais
 
