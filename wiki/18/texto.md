@@ -194,7 +194,7 @@ Se você precisar medir a distância com um conjunto de dados geograficamente di
 
 # 18.5 Visualizando Dados Geográficos no QGIS
 
->Baixe os [DADOS MUNDIAIS](https://drive.google.com/drive/folders/1WYUSG29IXcG8CcYoYGCEkfgQGLZ63Ekb?usp=sharing) que estão no formato shapefile. Fonte: [http://www.naturalearthdata.com/downloads/](http://www.naturalearthdata.com/downloads/)
+>Baixe os [DADOS MUNDIAIS](https://drive.google.com/drive/folders/1olR9Z3LzDnJoosZbWgDiY5dwHzLk6P-b?usp=sharing) que estão no formato shapefile. Fonte: [http://www.naturalearthdata.com/downloads/](http://www.naturalearthdata.com/downloads/)
 
 >Importe esses dados para o banco de dados sbde (SRID: 4326; Codificação da fonte de dados tabulares:UTF-8) utilizando o Gerenciador BD do QGIS. Mantenha o nome das tabelas como sendo o nome dos shapefiles: `ne_50m_admin_0_countries` e `ne_50m_populated_places_simple`.
 
